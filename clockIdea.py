@@ -15,12 +15,6 @@ draw = ImageDraw.Draw(image)
 # Load a font (change the path to the font file as needed)
 font = ImageFont.truetype("fonts/score_large.otf", size=16)
 
-current_time = datetime.datetime.now().time()
-formatted_time = current_time.strftime("%H:%M:%S")
-
-# Text to display
-text = formatted_time
-
 while True:
     current_time = datetime.datetime.now().time()
     formatted_time = current_time.strftime("%H:%M:%S")
