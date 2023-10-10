@@ -8,8 +8,10 @@ _some Chat-GPT code_
 
 This project relies on standard Python libraries, and you don't need to install any external dependencies. The `time` module, which is used for time-related operations, is included in the Python standard library, so there's no need to install it separately.
 
-`sudo apt-get update
-sudo apt-get install git python-pip`
+```
+sudo apt-get update
+sudo apt-get install git python-pip
+```
 
 This installation process might take some time because it will install all the dependencies listed below.
 
