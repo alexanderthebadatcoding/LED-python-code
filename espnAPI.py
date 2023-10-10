@@ -1,5 +1,6 @@
 import requests
 import time
+from PIL import Image, ImageDraw, ImageFont
 from rgbmatrix import RGBMatrix, RGBMatrixOptions
 
 # Set up the RGB LED matrix
