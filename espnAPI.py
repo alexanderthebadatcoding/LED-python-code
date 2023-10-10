@@ -20,7 +20,7 @@ while True:
         news_headlines = [article["headline"] for article in data.get("articles", [])]
         for headline in news_headlines:
             matrix.Clear()
-            matrix.draw.text(0, 16, matrix.Color(255, 255, 255), headline)
+            matrix.DrawText(0, 16, matrix.Color(255, 255, 255), headline)
             time.sleep(5)  # Display each headline for 5 seconds
     else:
         print(f"Error: {response.status_code}")
