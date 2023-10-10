@@ -1,6 +1,6 @@
 # Example Python Scripts for Raspberry Pi with the LED-Matrix
 
-Trying to learn python and better understand how to use the pi Matrix. Based partially on [mikemountain/nfl-led-scoreboard](https://github.com/alexanderthebadatcoding/nfl-led-score/tree/master) 
+Trying to learn python and better understand how to use the pi Matrix. Based partially on [mikemountain/nfl-led-scoreboard](https://github.com/mikemountain/nfl-led-scoreboard) 
 
 *some Chat-GPT code*
 
