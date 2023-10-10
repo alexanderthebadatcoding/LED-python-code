@@ -22,11 +22,17 @@ formatted_time = current_time.strftime("%H:%M:%S")
 text = formatted_time
 
 while True:
+    current_time = datetime.datetime.now().time()
+    formatted_time = current_time.strftime("%H:%M:%S")
+
+    # Text to display
+    text = formatted_time
+
     # Clear the matrix
     matrix.Clear()
 
     # Draw the text on the image
-    draw.text((2, 2), text, fill=(255, 255, 255), font=font)
+    draw.text((2, 1), text, fill=(255, 255, 255), font=font)
 
     # Convert the image to RGB565 format
     rgb565_image = image.convert("RGB")
