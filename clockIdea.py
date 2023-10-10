@@ -7,10 +7,7 @@ options = RGBMatrixOptions()
 options.rows = 32
 options.cols = 64
 options.parallel = 1
-options.gpio_mapping = "adafruit-hat-pwm"
 options.brightness = 80
-options.led_panel_type = "FM6126A"
-options.led_slowdown_gpio = 2
 
 matrix = RGBMatrix(options=options)
 
