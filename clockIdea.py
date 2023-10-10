@@ -1,4 +1,5 @@
 import time
+import datetime
 from PIL import Image, ImageDraw, ImageFont
 from rgbmatrix import RGBMatrix, RGBMatrixOptions
 
@@ -14,8 +15,14 @@ draw = ImageDraw.Draw(image)
 # Load a font (change the path to the font file as needed)
 font = ImageFont.truetype("fonts/score_large.otf", size=16)
 
+# Get the current date and time
+current_datetime = datetime.datetime.now()
+
+# Extract the current time
+current_time = current_datetime.time()
+
 # Text to display
-text = "Hello, RGB Matrix!"
+text = current_time
 
 while True:
     # Clear the matrix
