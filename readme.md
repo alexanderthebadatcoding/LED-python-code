@@ -22,10 +22,10 @@ sudo chmod +x install.sh
 sudo ./install.sh
 ```
 
-[rpi-rgb-led-matrix](https://github.com/hzeller/rpi-rgb-led-matrix/tree/master/bindings/python#building): The open-source library that allows the Raspberry Pi to render on the LED matrix.
+For more information about the `rpi-rgb-led-matrix` library, including detailed documentation and configuration options, please visit the [rpi-rgb-led-matrix repository](https://github.com/hzeller/rpi-rgb-led-matrix).
+
 
 [requests](https://requests.kennethreitz.org/en/master/): To call the API and manipulate the received data.
 
-For more information about the `rpi-rgb-led-matrix` library, including detailed documentation and configuration options, please visit the [rpi-rgb-led-matrix repository](https://github.com/hzeller/rpi-rgb-led-matrix).
 
 **Make sure to change the API key in weather**
