@@ -4,7 +4,14 @@ from rgbmatrix import RGBMatrix, RGBMatrixOptions
 
 # Set up the RGB LED matrix
 options = RGBMatrixOptions()
-options.hardware_mapping = "regular"  # Check your hardware mapping
+options.rows = 32
+options.cols = 64
+options.parallel = 1
+options.led_gpio_mapping = "adafruit-hat-pwm"
+options.brightness = 80
+options.led_panel_type = "FM6126A"
+options.led_slowdown_gpio = 2
+
 matrix = RGBMatrix(options=options)
 
 # Create an image buffer and drawing context
