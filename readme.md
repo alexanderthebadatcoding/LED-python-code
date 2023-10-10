@@ -24,4 +24,4 @@ To use this project with the RGB LED matrix, you'll need to clone the `rpi-rgb-l
 
 For more information about the `rpi-rgb-led-matrix` library, including detailed documentation and configuration options, please visit the [rpi-rgb-led-matrix repository](https://github.com/hzeller/rpi-rgb-led-matrix).
 
-## Make sure to change the API key in weather
+### Make sure to change the API key in weather
