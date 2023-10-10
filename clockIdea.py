@@ -4,6 +4,7 @@ from rgbmatrix import RGBMatrix, RGBMatrixOptions
 
 # Set up the RGB LED matrix
 options = RGBMatrixOptions()
+options.hardware_mapping = "adafruit-hat-pwm"  # Check your hardware mapping
 matrix = RGBMatrix(options=options)
 
 # Create an image buffer and drawing context

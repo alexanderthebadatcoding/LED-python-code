@@ -4,7 +4,7 @@ from rgbmatrix import RGBMatrix, RGBMatrixOptions
 
 # Set up the RGB LED matrix
 options = RGBMatrixOptions()
-options.hardware_mapping = "regular"  # Check your hardware mapping
+options.hardware_mapping = "adafruit-hat-pwm"  # Check your hardware mapping
 matrix = RGBMatrix(options=options)
 
 # Define the ESPN API URL
