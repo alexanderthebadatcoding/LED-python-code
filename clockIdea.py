@@ -15,14 +15,11 @@ draw = ImageDraw.Draw(image)
 # Load a font (change the path to the font file as needed)
 font = ImageFont.truetype("fonts/score_large.otf", size=16)
 
-# Get the current date and time
-current_datetime = datetime.datetime.now()
-
-# Extract the current time
-current_time = current_datetime.time()
+current_time = datetime.datetime.now().time()
+formatted_time = current_time.strftime("%H:%M:%S")
 
 # Text to display
-text = current_time
+text = formatted_time
 
 while True:
     # Clear the matrix
