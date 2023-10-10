@@ -16,8 +16,8 @@ sudo apt-get install git python-pip
 This installation process might take some time because it will install all the dependencies listed below.
 
 ```
-git clone --recursive https://github.com/mikemountain/nfl-led-scoreboard
-cd nfl-led-scoreboard/
+git clone --recursive https://github.com/alexanderthebadatcoding/raspi-py/
+cd raspi-py/
 sudo chmod +x install.sh
 sudo ./install.sh
 ```
