@@ -32,7 +32,7 @@ while True:
     matrix.Clear()
 
     # Draw the text on the image
-    draw.text((2, 1), text, fill=(255, 255, 255), font=font)
+    draw.text((1, 1), text, fill=(255, 205, 255), font=font)
 
     # Convert the image to RGB565 format
     rgb565_image = image.convert("RGB")
