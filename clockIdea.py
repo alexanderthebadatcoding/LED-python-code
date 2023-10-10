@@ -4,11 +4,6 @@ from rgbmatrix import RGBMatrix, RGBMatrixOptions
 
 # Set up the RGB LED matrix
 options = RGBMatrixOptions()
-options.rows = 32
-options.cols = 64
-options.parallel = 1
-options.brightness = 80
-
 matrix = RGBMatrix(options=options)
 
 # Create an image buffer and drawing context
