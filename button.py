@@ -41,3 +41,6 @@ except KeyboardInterrupt:
 
 finally:
     GPIO.cleanup()
+
+
+#may need to add a code to exit script
