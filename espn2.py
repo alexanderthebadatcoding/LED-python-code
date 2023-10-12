@@ -49,8 +49,7 @@ matrix = RGBMatrix(
     parallel=args.led_parallel,
     pwm_bits=args.led_pwm_bits,
     brightness=args.led_brightness,
-    hardware_mapping=args.led_gpio_mapping,
-    panel_type = self.args.led_panel_type
+    hardware_mapping=args.led_gpio_mapping
 )
 
 # Create an offscreen canvas
