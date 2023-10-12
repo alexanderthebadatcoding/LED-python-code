@@ -67,7 +67,7 @@ if nfl_headlines:
     while True:
         offscreen_canvas.Clear()
         font = graphics.Font()
-        font.LoadFont("../../../fonts/7x13.bdf")
+        font.LoadFont("/fonts/retro_computer.ttf")
         textColor = graphics.Color(255, 0, 0)
 
         # Display the current headline
