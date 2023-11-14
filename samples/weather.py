@@ -8,7 +8,7 @@ from pyowm.utils import timestamps
 
 owm = OWM('API_key')
 mgr = owm.weather_manager()
-observation = mgr.weather_at_place("Kansas City,US")
+observation = mgr.weather_at_place("City, Country")
 w = observation.weather
 
 
