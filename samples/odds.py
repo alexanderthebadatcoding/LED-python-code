@@ -32,6 +32,7 @@ class RSSFeedDisplay(SampleBase):
         ]
 
     def fetch_odds_data(self):
+        # Update with Your API Key
         base_url = "https://api.the-odds-api.com/v4/sports/americanfootball_nfl/odds/?regions=us&oddsFormat=american&apiKey=APIKEY"
 
         response = requests.get(base_url)
